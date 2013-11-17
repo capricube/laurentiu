@@ -1,0 +1,6 @@
+1) Lösche alles im bsort package und übernehme die printArray Erweiterung in die ursprüngliche MainBubblesort Klasse
+
+2) Bubblesort soll das interface Sortingalgorithm implementieren. Bitte die Implementierung dementsprechend anpassen.
+
+3) Was sind die Vor-/Nachteile einer for-in Loop gegenüber eines klassischen for Loops?
+
