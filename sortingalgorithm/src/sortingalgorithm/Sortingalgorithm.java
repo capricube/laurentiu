@@ -1,6 +1,10 @@
 package sortingalgorithm;
 
+
+
 public interface Sortingalgorithm
 {
-    int[] sort(int[] unsorted);
+     int[] sort(int[] unsorted);
+  
+    
 }

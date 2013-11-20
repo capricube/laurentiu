@@ -1,28 +1,40 @@
 package sortingalgorithm;
 
-// TODO Bubblesort muss das Sortinalgorithm interface implementieren; bitte die implementierung dementsprechend anpassen
-// TODO anschließend weise dem interface die instanz zu (in MainBubblesort) und sortiere die Werte (und gib sie aus) 
-public class Bubblesort
-{
 
-    public void bubbleSort(int[] values)
-    {
+public class Bubblesort implements Sortingalgorithm {
 
-        boolean switched = true;
+	public int[] sort(int[] unsorted) {
 
-        for (int i = 0; i < values.length && switched; i++)
-        {
-            switched = false;
-            for (int j = 1; j < values.length; j++)
-            {
-                if (values[j] < values[j - 1])
-                {
-                    int temp = values[j];
-                    values[j] = values[j - 1];
-                    values[j - 1] = temp;
-                    switched = true;
-                }
-            }
-        }
-    }
+		int[] sorted = new int[unsorted.length];
+		for (int i = 0; i < sorted.length; i++) {
+			sorted[i] = unsorted[i];
+		}
+
+		boolean switched = true;
+
+		for (int i = 0; i < sorted.length && switched; i++) {
+			switched = false;
+			for (int j = 1; j < sorted.length; j++) {
+				if (sorted[j] < sorted[j - 1]) {
+					int temp = sorted[j];
+					sorted[j] = sorted[j - 1];
+					sorted[j - 1] = temp;
+					switched = true;
+
+				}
+			}
+
+		}
+
+		return sorted;
+
+	}
+	public void printArray(String title, int[] array) {
+
+		System.out.printf(title);
+
+		for (int z : array) {
+			System.out.print(z + " ");
+		}
+	}
 }
