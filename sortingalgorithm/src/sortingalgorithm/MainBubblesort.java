@@ -16,7 +16,5 @@ public class MainBubblesort {
 
 		bs1.printArray("%n--- Einmal geht's noch ---%n", unnums);
 		bs1.printArray("%nSortierte Werte%n", snums);
-
 	}
-
 }
