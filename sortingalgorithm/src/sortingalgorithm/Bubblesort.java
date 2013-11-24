@@ -3,6 +3,7 @@ package sortingalgorithm;
 public class Bubblesort implements Sortingalgorithm
 {
     private final static int counter = 0;
+
     @Override
     public int[] sort(int[] unsorted)
     {
@@ -18,19 +19,18 @@ public class Bubblesort implements Sortingalgorithm
         for (int i = 0; i < sorted.length && switched; i++)
         {
 
-        }
-
-        switched = false;
-        for (int j = 1; j < sorted.length; j++)
-        {
-            if (sorted[j] < sorted[j - 1])
+            switched = false;
+            for (int j = 1; j < sorted.length; j++)
             {
-                int temp = sorted[j];
-                sorted[j] = sorted[j - 1];
-                sorted[j - 1] = temp;
+                if (sorted[j] < sorted[j - 1])
+                {
+                    int temp = sorted[j];
+                    sorted[j] = sorted[j - 1];
+                    sorted[j - 1] = temp;
 
-                switched = true;
+                    switched = true;
 
+                }
             }
         }
         return sorted;

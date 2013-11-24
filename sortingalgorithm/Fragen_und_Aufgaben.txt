@@ -1,8 +1,8 @@
-1) Lösche alles im bsort package und übernehme die printArray Erweiterung in die ursprüngliche MainBubblesort Klasse
+1) inkrementieren die counter variable der Bubblesort Klasse bei jedem sort Aufruf um 1
 
-2) Bubblesort soll das interface Sortingalgorithm implementieren. Bitte die Implementierung dementsprechend anpassen.
+2) instanzieren die Bubblesort Klasse ein zweites mal und rufe mehrmals die sort Methode auf.
 
-3) Was sind die Vor-/Nachteile einer for-in Loop gegenüber eines klassischen for Loops?
+3) Gib den Wert der counter variable aus
 
-test push
+4) Was fällt dir auf?
 
