@@ -37,14 +37,13 @@ public class Bubblesort implements Sortingalgorithm
 
 	}
 
-	public int count()
+	public static int count()
 	{
 		return counter;
 	}
 
 	public void printArray(String title, int[] array, String con)
 	{
-		
 
 		System.out.printf(title);
 
@@ -53,7 +52,7 @@ public class Bubblesort implements Sortingalgorithm
 			System.out.print(z + " ");
 		}
 
-		System.out.printf(con);
+		System.out.printf(con + "Counter:" + Bubblesort.count() + "%n");
 
 	}
 
