@@ -1,11 +1,12 @@
 package SortWithPrintEachLine;
 
+public class Main
+{
 
-public class Main {
+	public static void main(String[] args)
+	{
 
-	public static void main(String[] args) {
-
-		int[] nums = {4,3,2,1};
+		int[] nums = {4, 3, 2, 1};
 
 		Sortalgo sa = new Sortalgo();
 
