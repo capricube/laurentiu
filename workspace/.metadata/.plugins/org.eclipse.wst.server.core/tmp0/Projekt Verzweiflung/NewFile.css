@@ -1,0 +1,70 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	text-align: center;
+	background-image:url("Images/headerbild2.png");
+	background-size: 100%;	
+	
+}
+
+#webseite{
+	width: 980px;
+	margin: 0 auto;
+}
+
+#header{
+	width: 980px;
+	height: 150px;
+	border-radius: 5px;
+	border-style:double;
+	border-color:aqua;
+	background-image:url("Images/Blumen.jpg")
+}
+
+#headerh1{
+	color: #302823;
+	font-family: monospace;
+	text-align: center;
+	font-size: 60px;
+}
+
+#navigation{
+	widht: 980px;
+	height: 30px;
+	text-align: left;
+	font-family: cursive;
+	border-right: 1px solid black;
+}
+
+#main{
+	width: 980px;
+}
+
+#menü{
+	float: left;
+	width: 200px;
+	height: 300px;
+	background-image:url("Images/headerbild.png");
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+#inhalt{
+	float: right;
+	width: 770px;
+	height: 300px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	background-image:url("Images/Desert.jpg");
+}
+
+#footer{
+	width: 980px;
+	height: 50px;
+	background-color: #E7E3E0;
+	border-radius: 5px;
+	margin-top: 10px;
+	clear: both;
+}

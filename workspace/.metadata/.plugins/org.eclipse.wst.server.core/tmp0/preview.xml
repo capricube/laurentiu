@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server port="8080">
+  <module context="Projekt_Verzweiflung" name="Projekt Verzweiflung" path="C:/Users/acer/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/Projekt Verzweiflung" type="static"/>
+  <module context="WhyWiki" name="WhyWiki" path="C:/Users/acer/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/WhyWiki" type="static"/>
+</server>

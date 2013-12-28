@@ -1,0 +1,23 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-image: url("Bilder/carbon.jpg");	
+	background-size: 100%;
+}
+
+#header{
+	widht: 700px;
+	height: 300px;
+	background-color: #8F98A2;
+}
+
+#navigation{
+	height: 50px;
+	background-color: #8F98A2;
+}
+
+#section{
+	widht: 300px;
+	height: 400px;
+	background-color: #8F98A2;
+}

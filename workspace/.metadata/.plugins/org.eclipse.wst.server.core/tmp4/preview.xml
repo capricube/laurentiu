@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server port="8080">
+  <module context="Projekt_Verzweiflung" name="Projekt Verzweiflung" path="C:/Users/acer/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp4/Projekt Verzweiflung" type="static"/>
+</server>

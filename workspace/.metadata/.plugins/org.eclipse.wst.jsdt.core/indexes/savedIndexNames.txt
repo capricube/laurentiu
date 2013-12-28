@@ -1,0 +1,8 @@
+INDEX VERSION 1.122+C:\Users\acer\workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3488718653.index
+998514215.index
+79713682.index
+2477392347.index
+2292074620.index
+839339380.index
+4149786105.index

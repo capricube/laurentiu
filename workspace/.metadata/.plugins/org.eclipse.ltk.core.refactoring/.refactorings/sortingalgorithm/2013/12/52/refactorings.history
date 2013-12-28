@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;Ueben/src&apos;&#x0D;&#x0A;- Original project: &apos;sortingalgorithm&apos;&#x0D;&#x0A;- Destination element: &apos;Ueben/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     sortingalgorithm.Sortingalgorithm.java&#x0D;&#x0A;     sortingalgorithm.MainBubblesort.java&#x0D;&#x0A;     sortingalgorithm.Bubblesort.java" description="Copy compilation units" destination="=Ueben/src" element1="/src&lt;sortingalgorithm{Sortingalgorithm.java" element2="/src&lt;sortingalgorithm{MainBubblesort.java" element3="/src&lt;sortingalgorithm{Bubblesort.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1388246699538" units="3" version="1.0"/>
+</session>
